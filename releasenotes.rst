@@ -1,9 +1,10 @@
 Kiwi Release Notes
 ==================
 
-Wrappers x.x.x | Solver x.x.x | unreleased
+Wrappers 1.0.2 | Solver 1.0.0 | unreleased
 ------------------------------------------
-
+- test on Python 3.7 PR #51
+- improvemnts to setup.py and tests PR #46 #50
 
 Wrappers 1.0.1 | Solver 1.0.0 | 24/10/2017
 ------------------------------------------
