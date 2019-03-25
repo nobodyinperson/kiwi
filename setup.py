@@ -5,6 +5,7 @@
 #
 # The full license is in the file COPYING.txt, distributed with this software.
 #------------------------------------------------------------------------------
+import sys
 from setuptools import setup, Extension
 from setuptools.command.build_ext import build_ext
 
@@ -42,7 +43,7 @@ class BuildExt(build_ext):
 
 
 setup(
-    name='kiwisolver',
+    name='python3-kiwisolver' if sys.argv[1] == "bdist_rpm" else "kiwisolver",
     version='1.0.1',
     author='The Nucleic Development Team',
     author_email='sccolbert@gmail.com',

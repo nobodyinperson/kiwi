@@ -4,4 +4,4 @@
 
 build/
 dist/
-kiwisolver.egg-info/
+*.egg-info/

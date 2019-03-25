@@ -12,3 +12,13 @@ from 10x to 500x faster than the original Cassowary solver with typical use
 cases gaining a 40x improvement. Memory savings are consistently > 5x.
 
 In addition to the C++ solver, Kiwi ships with hand-rolled Python bindings.
+
+SailfishOS Package
+==================
+
+Build a SailfishOS package via
+
+.. code::
+
+    ln -rsf setup-rpm-sfos.cfg setup.cfg
+    python3 setup.py bdist_rpm
